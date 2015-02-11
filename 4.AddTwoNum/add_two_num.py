@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # coding=utf-8
 # File Name: 4.AddTwoNum/add_two_num.py
 # Developer: VVgege
@@ -10,6 +10,7 @@ You are given two linked lists representing two non-negative numbers. The digits
 Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
 Output: 7 -> 0 -> 8
 '''
+from pyllist import dllist, dllistnode
 class ListNode:
     def __init__(self, data, next):
         self.val = data
